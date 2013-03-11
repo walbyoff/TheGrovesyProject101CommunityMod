@@ -1,0 +1,24 @@
+package Grovesy101Mod;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class GrovesyTab extends CreativeTabs{
+
+  public GrovesyTab(int position, String tabId){
+		super(position, tabId);
+	}
+	
+	@SideOnly(Side.CLIENT)
+	public int getTabIconItemIndex(){
+		return Item.expBottle.itemID;
+	}
+	
+	public String getTranslatedTabLabel(){
+		return "Grovesy Tab";
+	}
+} 
+
+
