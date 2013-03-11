@@ -1,0 +1,12 @@
+package Grovesy101Mod;
+
+public class CommonProxy {
+
+  public void registerRenderThings(){
+    
+    
+    
+  }
+	
+	
+}
