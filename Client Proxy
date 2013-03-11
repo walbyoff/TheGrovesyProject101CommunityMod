@@ -1,0 +1,6 @@
+package Grovesy101Mod;
+
+public class ClientProxy extends CommonProxy{
+
+  
+}
